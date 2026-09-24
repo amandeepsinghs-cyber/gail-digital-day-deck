@@ -101,3 +101,7 @@ data/persona_research.json
 #     git config core.hooksPath .githooks
 # Override for a single commit with:
 #     ALLOW_CONFIDENTIAL=1 git commit ...
+
+# Third-party press clipping (Bloomberg) - present locally, do not publish
+assets/media/evidence/qatar_fm_bloomberg.png
+Qatar_Force_Mejure.png
