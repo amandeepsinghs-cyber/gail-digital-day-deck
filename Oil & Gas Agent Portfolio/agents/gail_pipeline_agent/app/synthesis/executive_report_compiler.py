@@ -414,7 +414,7 @@ class ExecutiveReportCompiler:
         }}
     </style>
     <script>
-        const STORAGE_KEY = 'gail_exec_briefing_edits';
+        const STORAGE_KEY = 'gail_exec_briefing_edits_v2';
         function saveEdits() {{
             const sheet = document.querySelector('.publication-sheet');
             localStorage.setItem(STORAGE_KEY, sheet.innerHTML);
@@ -474,10 +474,9 @@ class ExecutiveReportCompiler:
     <div class="publication-sheet" contenteditable="true" spellcheck="false">
         <div class="brand-ribbon"></div>
 
-        <!-- Institutional Header with GAIL Branding (Emblem of India Removed) -->
+        <!-- Institutional Header with GAIL Corporate Branding (No Emblem) -->
         <div class="inst-header">
             <div class="inst-header-left">
-                <img src="{gail_emblem_src}" class="emblem-crest-img" alt="GAIL (India) Limited" style="height: 76px; width: auto; object-fit: contain;" />
                 <div class="inst-crest-titles">
                     <div class="crest-gail-title">GAIL (India) Limited</div>
                     <div class="crest-ministry-sub">National Gas Management Centre (NGMC) · Strategic Operations &amp; Grid Dispatch</div>
@@ -495,7 +494,7 @@ class ExecutiveReportCompiler:
 
         <!-- Hero Title -->
         <div class="report-title-hero">
-            <div class="draft-header-tag">📊 EXECUTIVE THESIS &amp; OPERATIONAL RECKONER</div>
+            <div class="draft-header-tag">Demo Report ⚠️ SOVEREIGN OPERATIONAL RECKONER</div>
             <div class="report-main-title">Daily Line-Pack &amp; Grid Optimization Thesis</div>
             <div class="report-sub-title">Hazira-Vijaipur-Jagdishpur (HVJ) &amp; MNJPL Predictive Optimization Outlook</div>
             <div class="report-meta-line">Generated on: <strong>{report_timestamp} IST</strong> · Governing Platform: <strong>Google Gemini Enterprise &amp; ADK</strong></div>
